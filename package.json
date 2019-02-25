@@ -1,0 +1,12 @@
+{
+  "name": "problem_prep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "factorial.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "program": "node program.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
