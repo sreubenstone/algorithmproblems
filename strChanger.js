@@ -11,6 +11,8 @@ function LetterChanges(str) {
         let index = alph.indexOf(element)
         if (index === 25) {
             array2.push('a')
+        } else if (index === -1) {
+            array2.push(element)
         } else {
             const update = alph[index + 1]
             array2.push(update)
@@ -34,5 +36,5 @@ function LetterChanges(str) {
 
 }
 
-const value = "zasdfasdfawehjytzz*"
+const value = "za*"
 console.log('final value:', LetterChanges(value))
