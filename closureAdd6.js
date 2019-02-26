@@ -1,21 +1,3 @@
-
-
-createBase = (baseNumber) => {
-    return (N) => {
-        return baseNumber + N
-    }
-}
-
-var addSix = createBase(6)
-
-// console.log(addSix)
-
-console.log(addSix(10))
-
-
-
-
-/*
 function createBase(baseNumber) {
     return function (N) {
         // we are referencing baseNumber here even though it was declared
@@ -27,5 +9,3 @@ function createBase(baseNumber) {
 var addSix = createBase(6);
 
 console.log(addSix(10))
-
-*/
